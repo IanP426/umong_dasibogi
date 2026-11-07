@@ -1,0 +1,13 @@
+{
+  "name": "umong-vod-check",
+  "version": "24.0.0",
+  "private": true,
+  "description": "우몽 VOD 체크 - 개인별 상태 저장, SOOP 공통 정보 갱신",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
